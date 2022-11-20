@@ -111,6 +111,7 @@
   /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
   border-radius: 4px;
   color: getColor(white-);
+  // @include transit(border-color);
 
   &::placeholder {
     /* padding-left: 16px; */
@@ -120,6 +121,10 @@
 
     color: rgba(255, 255, 255, 0.6);
   }
+
+  //   &:focus {
+  //   border-color: getColor(accent);
+  // }
 }
 
 .subscribe__button {

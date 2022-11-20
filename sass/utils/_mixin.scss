@@ -9,10 +9,10 @@
 
 @mixin transit($property1, $property2: false) {
   @if ($property2) {
-    transition: $property1 1000ms cubic-bezier(0.4, 0, 0.2, 1),
-      $property2 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: $property1 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      $property2 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   @if ($property2==false) {
-    transition: $property1 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: $property1 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
