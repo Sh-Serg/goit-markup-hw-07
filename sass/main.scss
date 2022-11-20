@@ -1,7 +1,11 @@
+@import './base/reset';
 @import './utils/colors';
 @import './utils/vars';
-@import './utils/v-hidden';
+@import './base/base';
+
 @import './utils/mixin';
+@import './utils/placeholder';
+@import './utils/v-hidden';
 
 @import './components/header';
 @import './components/logo';

@@ -1,6 +1,5 @@
 .projects {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  @extend %section;
   display: flex;
   flex-direction: column;
 }
