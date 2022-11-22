@@ -72,8 +72,12 @@
   &:not(:last-child) {
     margin-right: 10px;
   }
+
+  // .socnetworks__icon {
+  //   fill: currentColor;
+  // }
 }
-.socnetworks__icon {
+.footer .socnetworks__icon {
   fill: currentColor;
 }
 /* *subscribe footer */

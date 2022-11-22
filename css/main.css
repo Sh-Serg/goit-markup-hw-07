@@ -491,7 +491,7 @@ body {
   background-color: #f5f4fa;
 }
 
-.advantages__title {
+.advantages__subtitle {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -739,7 +739,7 @@ body {
   margin-right: 10px;
 }
 
-.socnetworks__icon {
+.footer .socnetworks__icon {
   fill: currentColor;
 }
 
